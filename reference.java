@@ -15,5 +15,6 @@ class  student{
         System.out.println("Id: "+s1.id);
         System.out.println("Regno: "+s1.regno);
 
+        
  }
 }

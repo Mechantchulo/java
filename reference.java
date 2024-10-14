@@ -1,5 +1,5 @@
 //Objects and classes
-class  student{
+/*class  student{
     String name;
     int id;
     String regno;
@@ -17,4 +17,28 @@ class  student{
 
         
  }
+}*/
+
+class users{
+    String name;
+    int id;
+}
+
+public class reference{
+    public static void main(String[] args){
+        users u1 = new users();
+        u1.name = "Erick";
+        u1.id = 15517;
+
+        users u2 = new users();
+        u2.name = "Danzo";
+        u2.id = 232452;
+
+
+        System.out.println("User1: "+u1.name);
+        System.out.println("Id: "+u1.id);
+
+        System.out.println("User2: "+u2.name);
+        System.out.println("Id: "+u2.id);
+    }
 }

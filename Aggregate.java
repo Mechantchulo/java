@@ -3,7 +3,7 @@ class Address{
     String street;
     String city;
 
-    public Address(String street, String city){
+    Address(String street, String city){
         this.street = street;
         this.city = city;
     }
@@ -14,7 +14,7 @@ class Student{
     String name;
     Address address;
 
-    public Student(int age, String name,Address address){
+    Student(int age, String name,Address address){
         this.age = age;
         this.name = name;
         this.address = address;
